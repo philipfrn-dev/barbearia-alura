@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/Contato.css">
+    <title>Contato</title>
+</head>
+<body>
+    <header>
+        <header class="cabecalho">
+            <img class="cabecalho-logo" src="src/imagens/penteado branco.png" alt="Logo da Barbearia">
+            <nav>
+                <ul class="cabecalho-menu">
+                <li><a class="cabecalho-menu-item" href="index.html">Home</li></a>
+                <li><a class="cabecalho-menu-item" href="serviços.html">Serviços</li></a>
+                <li><a class="cabecalho-menu-item">Contato</li></a>
+                
+                </ul>
+            </nav>
+    
+        </header>
+        <main>
+            <form>
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" class="input-padrao" required>
+
+                <label for="Email">Email</label>
+                <input type="Email" id="Email" class="input-padrao" required placeholder="seu-email@dominio.com">
+
+                <label for="Telefone">Telefone</label>
+                <input type="Tel" id="Telefone" class="input-padrao" required placeholder="(XX) X XXXX-XXXX">
+
+                <label for="Mensagem">Mensagem</label>
+                <textarea cols="50" rows="10" id="Mensagem" required ></textarea>
+                
+                <div>
+                    <p>Como Prefere o nosso contato?</p>
+                    <label for="radio-Email"><input type="radio" name="contato" value="Email" id="radio-Email"> Email</label>
+
+                    <label for="radio-Telefone"><input type="radio" name="contato" value="Telefone" id="radio-Telefone">Telefone</label>
+                    
+                    <label for="radio-Whatsapp"><input type="radio" name="contato" value="Whatsapp" id="radio-Whatsapp" checked>Whatsapp</label>
+                    
+                </div>
+
+                <fieldset>
+                <legend>Qual horário prefere ser atendido?</legend>
+
+                    <select>
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>
+                </fieldset>
+                
+                <label><input type="checkbox" class="checkbox"> de receber nossas novidades por Email?</label>
+                
+                <input type="submit" value="Enviar" class="enviar">
+            </form>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horário</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Segunda</td>
+                        <td>8h às 20h</td>
+                    </tr>  
+                    <tr>
+                        <td>Quarta</td>
+                        <td>8h às 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Sexta</td>
+                        <td>8h às 20h</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    </header>
+    
+    <main>
+
+    </main>
+</body>
+</html>
